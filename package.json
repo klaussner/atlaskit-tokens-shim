@@ -1,0 +1,17 @@
+{
+  "name": "atlaskit-tokens-shim",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@atlaskit/theme": "^12.6.2",
+    "@atlaskit/tokens": "^1.28.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.14.50",
+    "typescript": "^5.2.2"
+  }
+}
