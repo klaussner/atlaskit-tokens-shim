@@ -7,10 +7,13 @@ type Tokens = Parameters<typeof atlaskitToken>[0];
 const fallbacks: Partial<Record<Tokens, string>> = {
   "color.background.input.hovered": colors.N10,
   "color.background.neutral": colors.N20,
+  "color.background.neutral.bold": colors.N800,
   "color.border": colors.N40,
+  "color.icon.danger": colors.R300,
   "color.icon.success": colors.G300,
   "color.icon.subtle": colors.N400,
   "color.text.danger": colors.R400,
+  "color.text.inverse": colors.N0,
   "color.text.subtle": colors.N500,
   "color.text.subtlest": colors.N400,
   "elevation.surface": colors.N0,
